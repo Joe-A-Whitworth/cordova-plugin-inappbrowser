@@ -878,8 +878,8 @@ public class InAppBrowser extends CordovaPlugin {
                 edittext.setSingleLine(true);
                 edittext.setText(url);
                 edittext.setTextDirection(View.TEXT_DIRECTION_LTR);
-		  edittext.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
-		  edittext.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
+		  		edittext.setLayoutDirection(View.LAYOUT_DIRECTION_LTR);
+		  		edittext.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
                 edittext.setInputType(InputType.TYPE_TEXT_VARIATION_URI);
                 edittext.setImeOptions(EditorInfo.IME_ACTION_GO);
                 edittext.setInputType(InputType.TYPE_NULL); // Will not except input... Makes the text NON-EDITABLE
